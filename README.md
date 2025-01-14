@@ -14,9 +14,9 @@ The Python code in this repository was developed as part of the project titled â
 
 There are two medical code-based components to this same project, and they  can be found here:
 
-* []	Stimulant and Opioid Use:
-  * CDCgov/stimulant_opioid_algorithm_medical_codes_R
-  * CDCgov/stimulant_opioid_algorithm_medical_codes_SAS
+  * [ ] Stimulant and Opioid Use:
+    * https://github.com/CDCgov/stimulant_opioid_algorithm_medical_codes_R
+    * https://github.com/CDCgov/stimulant_opioid_algorithm_medical_codes_SAS
 
 <ins>Related repositories:</ins>
 
