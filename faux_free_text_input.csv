@@ -1,0 +1,8 @@
+ENCOUNTER_ID,EVENT_NUMBER,NOTE_TITLE,NOTE_TEXT
+123X,1,NONE,"Laboratory Results: 
+Amphetamines: Urine Screen NEG
+ Opioids: Urine SCRN NDET
+ Assessment and Plan: Review medication list and potential sources of false-positive results. Repeat drug test to confirm findings and rule out errors."
+456X,1,NONE,Repeatedly told patient that they could not have their oxycodone rx filled       again due to overuse and       that they had to see their primary care physician
+012Y,3,NONE,"Amphetamine-dextroamphetamine (ADDERALL) extended release 10 mg PRN, order placed"
+789Z,1,NONE,Presents with cardiac arrhythmia and hx of meth overdose
