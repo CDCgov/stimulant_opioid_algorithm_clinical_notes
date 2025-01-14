@@ -1,0 +1,21 @@
+[INPUT_SETTINGS]
+input_type = CSV
+text_format = free text
+model_indir = NCHS/Non_Therapeutic_Drug_Use
+cnxn_string = DRIVER={ODBC Driver 17 for SQL Server};SERVER=YOURSERVERNAME;DATABASE=YOURDBNAME;Trusted_Connection=yes
+sql_query = select ENCOUNTER_ID, EVENT_NUMBER, NOTE_TEXT, NOTE_TITLE FROM [YOURDBNAME].[dbo].[YOURTABLENAME] where ENCOUNTER_ID  = 'ABC' and EVENT_NUMBER = 1
+infile_path = data\faux_free_text_input.csv
+search_terms_path = data\NLP_Term_Master.xlsx
+
+
+[SEARCH_SETTINGS]
+col_to_search = NOTE_TEXT
+note_type_col = NOTE_TITLE
+drugscreen_note_type = RESULTS
+meds_note_type = MEDICATIONS
+ehr_diag_titles = Encounters, Chief Complaint and Reason for Visit, Diagnoses, Reason for Visit, Social History, Emergency Department Encounters, Inpatient Encounters, PROBLEMS
+
+[OUTPUT_SETTINGS]
+results_path =  test_output.csv
+cols_to_keep = ENCOUNTER_ID, EVENT_NUMBER
+group_cols = ENCOUNTER_ID
