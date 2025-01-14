@@ -1,0 +1,159 @@
+ENCOUNTER_ID,EVENT_NUMBER,NOTE_TITLE,NOTE_TEXT
+123X,1,PROBLEMS,"<text xmlns=""urn:hl7-org:v3"" xmlns:sdtc=""urn:hl7-org:sdtc"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"">
+  <table border=""1"" width=""100%"">
+    <thead>
+      <tr>
+        <th>Start</th>
+        <th>Stop</th>
+        <th>Description</th>
+        <th>Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1961-05-22T18:37:21-04:00</td>
+        <td/>
+        <td ID=""conditions-desc-1"">Chronic sinusitis (disorder)</td>
+        <td ID=""conditions-code-1"">SNOMED-CT 40055000</td>
+      </tr>
+      <tr>
+        <td>1983-11-20T22:37:21-05:00</td>
+        <td/>
+        <td ID=""conditions-desc-2"">Body mass index 30+ - obesity (finding)</td>
+        <td ID=""conditions-code-2"">SNOMED-CT 162864005</td>
+      </tr>
+      <tr>
+        <td>1990-11-21T22:37:21-05:00</td>
+        <td/>
+        <td ID=""conditions-desc-3"">Sepsis (disorder)</td>
+        <td ID=""conditions-code-3"">SNOMED-CT 91302008</td>
+      </tr>
+      <tr>
+        <td>2006-05-14T23:37:21-04:00</td>
+        <td/>
+        <td ID=""conditions-desc-4"">Hyperlipidemia</td>
+        <td ID=""conditions-code-4"">SNOMED-CT 55822004</td>
+      </tr>
+      <tr>
+        <td>2012-11-26T18:02:45-05:00</td>
+        <td>2012-12-11T18:02:45-05:00</td>
+        <td ID=""conditions-desc-5"">Acute bronchitis (disorder)</td>
+        <td ID=""conditions-code-5"">SNOMED-CT 10509002</td>
+      </tr>
+      <tr>
+        <td>2015-03-06T07:37:21-05:00</td>
+        <td>2015-03-13T14:37:21-04:00</td>
+        <td ID=""conditions-desc-6"">Streptococcal sore throat (disorder)</td>
+        <td ID=""conditions-code-6"">SNOMED-CT 43878008</td>
+      </tr>
+      <tr>
+        <td>2016-07-02T00:38:31-04:00</td>
+        <td>2016-09-09T02:25:31-04:00</td>
+        <td ID=""conditions-desc-7"">Closed fracture of hip</td>
+        <td ID=""conditions-code-7"">SNOMED-CT 359817006</td>
+      </tr>
+      <tr>
+        <td>2020-03-02T22:37:21-05:00</td>
+        <td>2020-03-21T14:34:30-04:00</td>
+        <td ID=""conditions-desc-8"">Cough (finding)</td>
+        <td ID=""conditions-code-8"">SNOMED-CT 49727002</td>
+      </tr>
+      <tr>
+        <td>2020-03-02T22:37:21-05:00</td>
+        <td>2020-03-21T14:34:30-04:00</td>
+        <td ID=""conditions-desc-9"">Fatigue (finding)</td>
+        <td ID=""conditions-code-9"">SNOMED-CT 84229001</td>
+      </tr>
+      <tr>
+        <td>2020-03-02T22:37:21-05:00</td>
+        <td>2020-03-21T14:34:30-04:00</td>
+        <td ID=""conditions-desc-10"">Diarrhea symptom (finding)</td>
+        <td ID=""conditions-code-10"">SNOMED-CT 267060006</td>
+      </tr>
+      <tr>
+        <td>2020-03-02T22:37:21-05:00</td>
+        <td>2020-03-21T14:34:30-04:00</td>
+        <td ID=""conditions-desc-11"">Muscle pain (finding)</td>
+        <td ID=""conditions-code-11"">SNOMED-CT 68962001</td>
+      </tr>
+      <tr>
+        <td>2020-03-02T22:37:21-05:00</td>
+        <td>2020-03-21T14:34:30-04:00</td>
+        <td ID=""conditions-desc-12"">Joint pain (finding)</td>
+        <td ID=""conditions-code-12"">SNOMED-CT 57676002</td>
+      </tr>
+      <tr>
+        <td>2020-03-02T22:37:21-05:00</td>
+        <td>2020-03-21T14:34:30-04:00</td>
+        <td ID=""conditions-desc-13"">Fever (finding)</td>
+        <td ID=""conditions-code-13"">SNOMED-CT 386661006</td>
+      </tr>
+      <tr>
+        <td>2020-03-02T22:37:21-05:00</td>
+        <td>2020-03-02T23:34:30-05:00</td>
+        <td ID=""conditions-desc-14"">Suspected COVID-19</td>
+        <td ID=""conditions-code-14"">SNOMED-CT 840544004</td>
+      </tr>
+      <tr>
+        <td>2020-03-02T23:34:30-05:00</td>
+        <td>2020-03-21T14:34:30-04:00</td>
+        <td ID=""conditions-desc-15"">Opioid dependence</td>
+        <td ID=""conditions-code-15"">SNOMED-CT 75544000</td>
+      </tr>
+      <tr>
+        <td>2020-09-21T02:25:31-04:00</td>
+        <td>2020-11-09T03:10:31-05:00</td>
+        <td ID=""conditions-desc-16"">Closed fracture of hip</td>
+        <td ID=""conditions-code-16"">SNOMED-CT 359817006</td>
+      </tr>
+      <tr>
+        <td>2020-12-12T19:37:21-05:00</td>
+        <td>2020-12-24T20:37:21-05:00</td>
+        <td ID=""conditions-desc-17"">Acute viral pharyngitis (disorder)</td>
+        <td ID=""conditions-code-17"">SNOMED-CT 195662009</td>
+      </tr>
+    </tbody>
+  </table>
+</text>
+"
+456X,1,MEDICATIONS,"<text xmlns=""urn:hl7-org:v3"" xmlns:sdtc=""urn:hl7-org:sdtc"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"">
+  <table border=""1"" width=""100%"">
+    <thead>
+      <tr>
+        <th>Start</th>
+        <th>Stop</th>
+        <th>Description</th>
+        <th>Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2020-03-07T17:08:56-05:00</td>
+        <td/>
+        <td ID=""medications-desc-1"">0.4 ML Enoxaparin sodium 100 MG/ML Prefilled Syringe</td>
+        <td ID=""medications-code-1"">RxNorm 854235</td>
+      </tr>
+      <tr>
+        <td>2020-03-07T17:08:56-05:00</td>
+        <td/>
+        <td ID=""medications-desc-2"">Acetaminophen 500 MG Oral Tablet</td>
+        <td ID=""medications-code-2"">RxNorm 198440</td>
+      </tr>
+      <tr>
+        <td>2020-06-19T04:31:47-04:00</td>
+        <td>2020-06-26T04:31:47-04:00</td>
+        <td ID=""medications-desc-3"">Amoxicillin 250 MG / Clavulanate 125 MG Oral Tablet</td>
+        <td ID=""medications-code-3"">RxNorm 562251</td>
+      </tr>
+      <tr>
+        <td>2020-06-19T04:31:47-04:00</td>
+        <td>2020-06-26T04:31:47-04:00</td>
+        <td ID=""medications-desc-3"">amphetamine-destroamphetamine (ADDERALL) 30 MG tablet</td>
+        <td ID=""medications-code-3"">RxNorm 84815</td>
+      </tr>
+    </tbody>
+  </table>
+</text>
+"
+012Y,1,RESULTS,"<text xmlns=""urn:hl7-org:v3"" xmlns:sdtc=""urn:hl7-org:sdtc"" xmlns:xsi=""http://www.w3.org/2001/XMLSchema-instance"">Drugs of abuse SCREEN URINE not detected</text>
+"
