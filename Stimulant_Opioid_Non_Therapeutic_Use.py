@@ -371,17 +371,22 @@ def determine_note_flag_freetext(cat, non_tx):
 #Load the model and tokenizer. Only needed for free text option
 if text_format == "free text":
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    try: #for local models in a directory
-        model = BertForSequenceClassification.from_pretrained(str(Path(model_indir)))
-    except OSError: #for not path-like objects
-        model = BertForSequenceClassification.from_pretrained(model_indir)
+    #loading from path or huggingface?
+    if Path(model_indir).exists():
+        model_source = 'local'
+    else:
+        model_source = 'hosted'
+    
+    if model_source == 'local':
+        model = BertForSequenceClassification.from_pretrained(str(Path(model_indir)))      
+        tokenizer = BertTokenizer.from_pretrained(str(Path(model_indir)))
+        
+    else:        
+        model = BertForSequenceClassification.from_pretrained(model_indir)          
+        tokenizer = BertTokenizer.from_pretrained(model_indir) 
+        
     model.to(device)
     model.eval()
-    
-    try:
-        tokenizer = BertTokenizer.from_pretrained(str(Path(model_indir)))
-    except OSError:
-        tokenizer = BertTokenizer.from_pretrained(model_indir)
     max_len = 150
 
 #output variables for this code defined
