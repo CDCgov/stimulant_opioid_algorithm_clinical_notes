@@ -1,4 +1,4 @@
-# Guide to the NLP / Clinical Notes component <p> of the NCHS Stimulant and Opioid Use Algorithm
+# Guide to the NLP / Clinical Notes component <p> of the NCHS Stimulant Algorithm
 
 **Author: Nikki Adams**
 
